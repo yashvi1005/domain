@@ -1,0 +1,18 @@
+.table-header:not(:last-child) {
+    border-right: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+    background-color: #F6F6F6 !important;
+  }
+  .cell {
+    padding: 14px 40px !important;
+    border-bottom: none !important;
+    background-color: #ffffff !important;
+  }
+  .cell:not(:last-child) {
+     border-right: 1px solid lightgray;
+     border-bottom: 1px solid lightgray !important;
+    }
+
+    .App:nth-child(3){
+        height: 400px !important;
+    }
